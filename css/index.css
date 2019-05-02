@@ -239,6 +239,9 @@ img {
   color: #FFFFFF;
   text-decoration: none;
 }
+.home header {
+  border-bottom: 2px dashed #C0C0C0;
+}
 .home .form-content {
   height: 400px;
   width: 400px;
