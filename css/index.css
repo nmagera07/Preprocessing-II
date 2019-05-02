@@ -239,6 +239,33 @@ img {
   color: #FFFFFF;
   text-decoration: none;
 }
+.home .form-content {
+  height: 400px;
+  width: 400px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 25%;
+}
+.home .form-content .top-form {
+  height: 75px;
+}
+.home .form-content .top-form p {
+  font-size: 20px;
+  margin-bottom: 2%;
+  font-family: Roboto;
+}
+.home .form-content .middle-form {
+  height: 50px;
+}
+.home .form-content textarea {
+  resize: none;
+}
+.home label {
+  font-size: 1.25rem;
+}
+.home p {
+  font-size: 14px;
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
