@@ -196,7 +196,7 @@ img {
   font-size: 1.6em;
 }
 .nav li:hover {
-  transform: scale(2);
+  transform: scale(1.5);
   transition: 0.15s;
 }
 .nav a {
@@ -204,7 +204,7 @@ img {
   color: black;
 }
 .nav h1:hover {
-  transform: scale(2);
+  transform: scale(1.5);
   transition: 0.15s;
 }
 .footer {
