@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <title>Fun Bus Form</title>
+</head>
+<body>
+    <nav class="nav">
+    
+        <div class="container nav-all">
+            <h1>Fun Bus</h1>
+    
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="form.html">Contact</a></li>
+            </ul>
+        </div>
+    
+    </nav>
+
+<div class="container home">
+    <section class="form-content">
+        <form action="https://formspree.io/nmagera07@gmail.com" method="POST">
+            <div class="top-form">
+                <p>Please select a vacation package:</p>
+                    <select name="packages">
+                        <option value=""></option>
+                        <option value="fun-in-the-sun">Fun In The Sun</option>
+                        <option value="mountain-excursion">Mountain Excursion</option>
+                        <option value="island-getaway">Island Getaway</option>
+                    </select><br>
+            </div>
+            <div class="middle-form">
+                <label id="name">Name: </label>
+                <input type="text" name="name">
+                <label id="email">Email: </label>
+                <input type="email" name="_replyto">
+            </div>
+            <p>If you have any special instructions, please leave them below</p>
+            <textarea rows="8" cols="50" placeholder="Comments here!" wrap="off">
+
+            </textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+
+</div>
+    <footer class="footer">
+        <p>Copyright Fun Bus 2018</p>
+    </footer>
+</body>
+</html>

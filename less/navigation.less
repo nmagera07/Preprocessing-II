@@ -1,1 +1,45 @@
 // Navigation Styles here
+
+.nav {
+	height: 75px;
+    border-bottom: 2px dashed @navigation-border;
+	
+	.nav-all {
+		display: flex;
+		justify-content: space-between;
+		height: 100%;
+		align-items: center;
+		
+		@media @phone {
+			flex-direction: column;
+		}
+	}
+
+	ul {
+		display: flex;
+
+		@media @phone {
+			margin-bottom: 10px;
+		}
+	}
+
+	li {
+		margin: 0 20px;
+        font-size: 1.6em;
+        &:hover {
+            .custom-animation()
+        }
+	}
+
+	a {
+		text-decoration: none;
+        color: black;
+    }
+   
+   h1 {
+       &:hover {
+            .custom-animation()
+        }
+   } 
+
+}
